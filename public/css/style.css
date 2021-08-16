@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan-webfont.eot') format('eot'), url('../fonts/BYekan-webfont.woff') format('woff'), url('../fonts/BYekan-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'BYekan' !important;
+    font-size: 14px;
+    word-spacing: -1px;
+    direction: rtl;
+}
+
+.menu {
+    position: fixed;
+    z-index: 999;
+    bottom: 51px;
+    right: 61px;
+}
+
+.owl-carousel .item {
+    background-color: #45526C;
+    height: 450px;
+}
+
+.dropDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #45526C;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.menu--bar {
+    background: #fff;
+    box-shadow: -6px 0 30px rgb(13 12 34 / 10%);
+    border-radius: 8px;
+    position: absolute;
+    bottom: 66px;
+    right: 0;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#close {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+
+.header--one {
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+}
+
+.register--google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #BD1616;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.login--text {
+    position: relative;
+}
+
+.login--text a::before {
+    content: " ";
+    position: absolute;
+    background-color: #BD1616;
+    width: 50px;
+    height: 5px;
+    left: 500;
+    bottom: -8px;
+}
+
+.card--coffe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.box--shadow {
+    box-shadow: 0 4px 48px rgb(13 12 34 / 10%);
+    z-index: 999;
+}
