@@ -25,18 +25,69 @@
 
 <body>
 
+
     <!-- NAVBAR START -->
     <nav class="navbar ">
         <div class="container">
-
             <a href="./register.html" class="btn btn-dark"> پروفایلتو بساز</a>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./public/image/logo/logo.png" alt="" width="100" height="100">
             </a>
         </div>
     </nav>
     <!-- NAVBAR END -->
 
+
+
+        <!-- Modal about us-->
+        <div class="modal fade" id="aboutUs" tabindex="-1" aria-labelledby="aboutUsLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="aboutUsLabel">قوانین</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>لطفا تمام اطلاعات را چک کنید . مسئولیت پرداخت را مدیریت سایت بر عهده نمیگیرد.</p>
+                        <br>
+                        <p>شما برای پرداخت نیاز به ساخت پنل کاربری ندارید</p>
+                        <br>
+                        <p>هیچ گونه اطلاعاتی از شما حامیان عزیز دریافت نمیشود</p>
+                        <br>
+                        <p>در هیچ شرایطی پیامک یا پست الکترونیک برای حامیان ارسال نمیشود</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">مطالعه کردم</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal about us -->
+    
+        <!-- Modal contact us-->
+        <div class="modal fade" id="contactUs" tabindex="-1" aria-labelledby="contactUsLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactUsLabel">تماس با ما</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>شما دوستان عزیز میتوانید با آدرس پست الکترونیک که در پایین صفحه قرار دارد با ما ارتباط برقرار کنید .همچنین از صفحه پیشنهادات  نظرات خودتان را با ما به اشتراک 
+                            بگذارید
+                        </p>
+                        <p>از شما برای حمایت و اعتماد به ما تشکر میکنیم</p>
+                        <hr>
+                        <p>khosrora@gmail.com</p>
+                        <p>hamidBa@gmail.com</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">مطالعه کردم</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal contact us -->
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -47,7 +98,11 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <p>لطفا تمام اطلاعات را چک کنید . مسئولیت پرداخت را مدیریت سایت بر عهده نمیگیرد.</p>
+                    <br>
+                    <p>شما برای پرداخت نیاز به ساخت پنل کاربری ندارید</p>
+                    <br>
+                    <p>هیچ گونه اطلاعاتی از شما حامیان عزیز دریافت نمیشود</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-dark" data-bs-dismiss="modal">مطالعه کردم</button>
@@ -57,91 +112,62 @@
     </div>
     <!-- Modal -->
 
+    <div class="container text-center mb-5 login--text">
+        <h1>صفحه پرداخت</h1>
+        <a href="./login.html" class="text-black-50">لطفا موارد ثبت شده را با دقت بررسی کنید</a>
+    </div>
 
-    <div class=" container-fluid  col-xs-12 col-md-8 col-lg-6 ">
-        <div class="row">
-            <div class="col-xs-12 col-md-6 p-2x">
-                <div class="card--coffe border my-2 ">
-                    <div class="coffe--price">
-                        <label>اسپرسو</label>
-                        <span>5000 تومان</span>
-                    </div>
+
+
+    <div class="d-flex justify-content-center align-items-center container col-xs-12 col-md-8 col-lg-6">
+        <div class="form w-75">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">نام دریافت کننده </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" value="خسرو رسولی" readonly>
                 </div>
-                <div class="card--coffe border my-2">
-                    <div class="coffe--price">
-                        <label>ترک </label>
-                        <span>20000 تومان</span>
-                    </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">شماره شناسایی</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" value="32568964259846" readonly>
                 </div>
-                <div class="card--coffe border my-2">
-                    <div class="coffe--price">
-                        <label>اسپرسو دوبل</label>
-                        <span>30000 تومان</span>
-                    </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">مبلغ (تومان)</label>
+                    <input type="number" class="form-control" id="price" value="5000" min="5000" placeholder="0 تومان">
+                    <p class="text-danger">لطفا بیشتر از 5000 تومان مبلغ را وارد کنید</p>
                 </div>
-                <div class="card--coffe border my-2">
-                    <div class="coffe--price">
-                        <label>آفوگاتو</label>
-                        <span>65000 تومان</span>
-                    </div>
+                <p type="button" class=" my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    لطفا قبل از پرداخت پیام ما را مطالعه کنید
+                </p>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">پیام مدیریت را مطالعه کردم</label>
                 </div>
-                <div class="card--coffe border my-2">
-                    <div class="coffe--price">
-                        <label>لامبورگینی</label>
-                        <span>70000 تومان</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6">
-                <div class="form">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">نام دریافت کننده </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" value="خسرو رسولی"
-                                readonly>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">شماره شناسایی</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" value="32568964259846"
-                                readonly>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">مبلغ (تومان)</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" value="50000" readonly>
-                        </div>
-                        <p type="button" class=" my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            لطفا قبل از پرداخت قوانین را مطالعه کنید
-                        </p>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">قوانین را مطالعه کردم</label>
-                        </div>
-                        <button type="submit" class="btn btn-dark">پرداخت</button>
-                    </form>
-                </div>
-            </div>
+                <button type="submit" class="btn btn-dark">پرداخت</button>
+            </form>
         </div>
     </div>
 
 
-    <!-- MENUE START -->
+    <!-- MENU START -->
     <div class="menu">
         <div class="dropDown" id="question">
-            <i class="fas fa-question text-white"></i>
+            <i class="fas fa-bars text-white"></i>
         </div>
         <ul class="menu--bar zoomIn" id="menu">
-            <li><a href=""> ورود </a></li>
-            <li><a href=""> تماس با ما </a></li>
-            <li><a href=""> ارسال پیشنهادات</a></li>
-            <li><a href=""> بیشتر بدانید</a></li>
-            <li><a href=""> گروه رابا</a></li>
+            <div class="" id="close">
+                <i class="fas fa-times" style="color: #45526C;"></i>
+            </div>
+            <li><a href="./login.html"> ورود </a></li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#contactUs"> تماس با ما </a></li>
+            <li><a href="./suggestion.html"> ارسال پیشنهادات</a></li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#aboutUs"> بیشتر بدانید</a></li>
+            <li><a href="http://raba.com"> گروه رابا</a></li>
         </ul>
     </div>
-    <!-- MENUE end -->
+    <div class="unSelect" id="unSelect"></div>
+    <!-- MENU end -->
 
-
-
-
+    <canvas class="background"></canvas>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
@@ -152,6 +178,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 <script src="./public/js/all.min.js"></script>
 <script src="./public/js/custom.js"></script>
 
