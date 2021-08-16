@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raba services</title>
+
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./public/css/bootstrap.rtl.css">
+
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="./public/css/normalize.css">
+
+    <!-- animations -->
+    <link rel="stylesheet" href="./public/css/animations.css">
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR START -->
+    <nav class="navbar ">
+        <div class="container">
+            <a href="./index.html" class="btn btn-dark"> خروج از پنل کاربری</a>
+            <a class="navbar-brand" href="./index.html">
+                <img src="./public/image/logo/logo.png" alt="" width="100" height="100">
+            </a>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+
+
+    <div class="container col-sm-12 col-md-8 col-lg-6 box--shadow">
+        <div class="tab" dir="">
+            <button class="tablinks" onclick="openCity(event, 'London')">اطلاعات ثبت شده</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">اطلاعات شناسایی</button>
+        </div>
+    </div>
+
+    <div id="London" class="tabcontent container  my-5 col-sm-12 col-md-6 col-lg-4 box--shadow">
+        <div class="p-2">
+            <p class="h6">نام و نام خانوادگی:</p>
+            <p>خسرو رسولی</p>
+            <p class="h6">شماره تماس:</p>
+            <p>09332839823</p>
+            <p class="h6">شماره شبا یا شماره کارت بانک:</p>
+            <p>09332839823</p>
+            <p class="h6">توضیحات فعالیت شما:</p>
+            <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده،
+                شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای
+                اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+        </div>
+    </div>
+    <div id="Paris" class="tabcontent container  my-5 col-sm-12 col-md-6 col-lg-4 box--shadow">
+        <div class="p-2">
+            <p class="h6">موجودی کیف پول شما:</p>
+            <p>5000</p>
+            <p class="h6">نام کاربری:</p>
+            <p>خسرو رسولی</p>
+            <p class="h6">شماره شناسایی:</p>
+            <p>3265225625665</p>
+            <p class="text-danger">همراهان شما میتوانند با شماره شناسایی و یا نام کاربری
+                پنل شما را جست وجو کنند
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- MENU START -->
+    <div class="menu">
+        <div class="dropDown" id="question">
+            <i class="fas fa-bars text-white"></i>
+        </div>
+        <ul class="menu--bar zoomIn" id="menu">
+            <div class="" id="close">
+                <i class="fas fa-times" style="color: #45526C;"></i>
+            </div>
+            <li><a href="./login.html"> ورود </a></li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#contactUs"> تماس با ما </a></li>
+            <li><a href="./suggestion.html"> ارسال پیشنهادات</a></li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#aboutUs"> بیشتر بدانید</a></li>
+            <li><a href="http://raba.com"> گروه رابا</a></li>
+        </ul>
+    </div>
+    <div class="unSelect" id="unSelect"></div>
+    <!-- MENU end -->
+
+
+
+
+
+    <!-- Loader -->
+    <div class="loader" id="load">
+        <img src="./public/image/Vg1.gif" alt="">
+    </div>
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+<script src="./public/js/all.min.js"></script>
+<script src="./public/js/custom.js"></script>
+
+
+</html>
