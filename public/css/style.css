@@ -110,7 +110,7 @@ body {
     z-index: 999;
 }
 
-.number--cofee {
+.number--coffe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +121,14 @@ body {
     border-radius: 50%;
     padding: 15px;
 }
+
+.box--caffe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .loader {
     display: flex;

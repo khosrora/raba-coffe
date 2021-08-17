@@ -5,6 +5,7 @@ const menu = document.getElementById("menu")
 const closeMenu = document.getElementById("close")
 const loader = document.querySelector(".loader")
 
+
 // ! SHOW MENU
 question.onclick = () => {
     if (menu.style.display !== "none") {
@@ -20,6 +21,8 @@ closeMenu.onclick = () => {
         menu.style.display = "none";
     }
 }
+
+
 
 // ! Particles 
 window.

@@ -31,7 +31,7 @@
         <div class="container">
             <a href="./register.html" class="btn btn-dark"> پروفایلتو بساز</a>
             <a class="navbar-brand" href="./index.html">
-                <img src="./public/image/logo/logo.png" alt="" width="100" height="100">
+                <img class="img-fluid" src="./public/image/logo/logo.png" alt="" width="200" height="100">
             </a>
         </div>
     </nav>
@@ -113,14 +113,28 @@
     </div>
     <!-- Modal -->
 
-    <div class="container text-center mb-5 login--text">
-        <h1>صفحه پرداخت</h1>
-        <a href="./login.html" class="text-black-50">لطفا موارد ثبت شده را با دقت بررسی کنید</a>
+
+    <div class="container  p-2 col-xs-9 col-md-6 col-lg-4">
+        <div class="box--caffe mb-3 ">
+            <img src="./public/image/icons8-kawaii-coffee-96.png" alt="">
+            <div class="number--coffe" id="num1">
+                <p class="h4">1</p>
+            </div>
+            <div class="number--coffe" id="num2">
+                <p class="h4">2</p>
+            </div>
+            <div class="number--coffe" id="num3">
+                <p class="h4">3</p>
+            </div>
+            <div>
+                
+                <p class="h4">20/000 </p>
+            </div>
+        </div>
     </div>
 
 
-
-    <div class="d-flex justify-content-center align-items-center container col-xs-12 col-md-8 col-lg-6">
+    <div class="d-flex justify-content-center align-items-center container mb-5 col-xs-12 col-md-8 col-lg-6">
         <div class="form w-75">
             <form>
                 <div class="mb-3">
@@ -129,12 +143,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">شماره شناسایی</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" value="32568964259846" readonly>
+                    <input type="email" class="form-control" id="exampleInputEmail1" value="32568" readonly>
                 </div>
                 <div class="mb-3">
                     <label for="price" class="form-label">مبلغ (تومان)</label>
-                    <input type="number" class="form-control" id="price" value="5000" min="5000" placeholder="0 تومان">
-                    <p class="text-danger">لطفا بیشتر از 5000 تومان مبلغ را وارد کنید</p>
+                    <input type="number" class="form-control" id="price" value="20000" min="20000" readonly>
                 </div>
                 <p type="button" class=" my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     لطفا قبل از پرداخت پیام ما را مطالعه کنید
@@ -184,7 +197,9 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+<script src="./public/js/changePrice.js"></script>
 <script src="./public/js/all.min.js"></script>
 <script src="./public/js/custom.js"></script>
+
 
 </html>
